@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/form.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+        
+            <ul class="nav">
+                <li class="home"><a href="index.html">Home</a></li>
+                <li><a href="/docs/RoadMap.html">Roadmap</a></li>
+                <li><a href="form.html">Registration Form</a></li>
+                <li><a href="https://www.iti.gov.eg/" target="_blank">Contact</a></li>
+                <img id="#logo" class="logo" src="./images/nRHny7R.png" width="150" alt="">
+            </ul>
+            
+        </nav>
+    </header>
+    <div class="container">
+        <form action="">
+            <h2 class="head">Register-Create Account</h2>
+            <p class="required">field marked with <span class="sign">*</span> are compulsory field</p>
+            <label ><span class="sign" >*</span>Your Name</label>
+            <input class="name" type="text" name="Name" required >
+            <br>
+            <label ><span class="sign">*</span> E-mail ID</label>
+            <input class="email" type="email" name="email" required>
+            <br>
+            <label >Attendance E-Mail ID</label>
+            <input class="email" type="email" name="attendance_email">
+            <br>
+            <table>
+                <tr>
+                    <td>
+                        <label class="lphone">Your Phone</label>
+                    </td>
+                    <td>
+                        <div >
+                            <label class="lnumber" ><pre> Country Code - City Code - Phone Number</pre></label>
+                        </div>
+                        
+                        <div class="contnumber">
+                            
+                        <input class="number1"  type="number" name="country_code"> -
+                        <input class="number1 num"  type="number" name="city_code"> -
+                        <input class="number" type="number" name="Phone_number">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            
+            <label class="ltxtarea" ><span class="sign">*</span> Your Postal Address</label>
+            <textarea class="txtarea" name="textarea" required></textarea>
+            <br>
+            <label ><span class="sign">*</span>Country</label>
+            <select class="country" name="select_country" required >
+                <option value="select" selected>---------------Select----------------</option>
+                <option value="Egypt" disabled>Select Country</option>
+                <option value="selected" >Egypt</option>
+                <option value="canda" >Canda</option>
+                <option value="Germany" >Germany</option>
+                <option value="Saudi Arabia" >Saudi Arabia</option>
+            </select><br>
+            <label ><span class="sign">*</span>Password</label>
+            <input class="pass" type="password" name="password" required >
+            <br>
+            <label ><span class="sign">*</span>Re-Enter-Password</label>
+            <input class="pass" type="password" name="password" required>
+            <br>
+            <div class="contcheck">
+            <input class="check" type="checkbox" name = "checkbox">
+            <label class="accept">I Accept the <span><a href="#">Terms Of Use</a></span></label>
+            </div>
+            
+            <input class="submit" type="submit" value="Continue>>">
+            <input class="reset" type="reset" value="reset">
+        </form>
+    </div>
+    <hr>
+
+        <p style="text-align: center;">CopyRights 2022 by Mohamed Mohamed Mahmoud &#174;. All Right Reserved.</p>
+
+</body>
+</html>
